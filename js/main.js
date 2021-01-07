@@ -1,9 +1,3 @@
-$(function () {
-    $("#phone").mask("8(999) 999-99-99");
-});
-
-
-
 document.addEventListener("DOMContentLoaded", () => {
 	//Burger Menu
 	let headerLock = document.querySelector(".header");
@@ -69,4 +63,11 @@ document.addEventListener("DOMContentLoaded", () => {
                 })
                 .catch((err) => console.error(err))
         });
-})
+});
+
+//маска для номера телефона
+$(function () {
+    $("#phone").mask("8(999) 999-99-99");
+});
+
+
