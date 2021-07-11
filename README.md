@@ -4,8 +4,6 @@
 * HTML
 * CSS
 * JavaScript
-### Цели проекта:
-Сайт свёрстан в учебных целях
 
 
 ### GitHub Pages: <https://petrudin.github.io/ChessSchool/>
